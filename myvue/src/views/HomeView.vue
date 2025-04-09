@@ -3,7 +3,7 @@
         <div class="pro-list-wrap">
             <div class="pro-list-top">
                 <div class="project-name">
-                    <h1>프로젝트명</h1>
+                    <h1>SKT QAS</h1>
                 </div>
                 <ul class="worker">
                     <!-- <li><strong>박병조 차장 [P]</strong><em>|</em>010-4841-3378<em>|</em>eva01x@muplus.co.kr</li> -->
@@ -40,7 +40,7 @@
                         <th>인코딩</th>
                         <td>UTF-8</td>
                         <th>해상도 기준 / 디자인 너비</th>
-                        <td>1200</td>
+                        <td>1920</td>
                     </tr>
                     <tr>
                         <th>웹 유형</th>
@@ -76,19 +76,15 @@
             <!--********* Directory ********** -->
             <pre class="code">
     /* Directory */
-    html
-    _template
-    _main
-    _sub
-    resource
-    _css
-    _font
-    _images
-    _js
-    _lib
-    list.html
-    </pre
-            >
+    src
+        assets
+            _images
+            _styles
+        views
+            _HomeView.vue
+            _sub_template.vue
+            _main.vue
+</pre>
             <!--********* Directory ********** -->
 
             <p class="total">total : <span></span></p>
@@ -117,13 +113,13 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th rowspan="1">AboutView</th>
+                        <th rowspan="1">Template</th>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td></td>
                         <td>
-                            <router-link to="/about" class="linktxt">AboutView.vue</router-link>
+                            <router-link to="/sub_template" class="linktxt">sub_template.vue</router-link>
                         </td>
                         <td>
                             <ul class="notelist">

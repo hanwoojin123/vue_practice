@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+details,
+menu,
+figure,
+figcaption {
+    display: block;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+span,
+i,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+div,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select,
+label,
+iframe,
+pre,
+code,
+blockquote,
+video,
+audio,
+object,
+img,
+canvas,
+address,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+object {    
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+body {
+    -webkit-text-size-adjust: none;
+    font-family: 'Pretendard', 'Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+ul,
+ol,
+dl,
+dt,
+dd {
+    list-style: none;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+button {
+    overflow: visible;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: none;
+}
+button,
+a,
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+}
+a:focus,
+button:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="button"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus{
+    /* outline: dashed 2px #2189ff; */
+    outline: 0;
+}
+address {
+    font-style: normal;
+}
+em {
+    font-style: normal;
+}
+img {
+    vertical-align: top;
+}
+caption{ position: absolute; overflow: hidden; width: 1px; height: 1px; margin: -1px; padding: 0; border: 0; clip: rect(0, 0, 0, 0); }
+input::-ms-clear { display: none; } 
+select { -webkit-appearance:none; -moz-appearance:none; appearance:none; } 
+select::-ms-expand { display:none; } 
+textarea { resize: none; }
