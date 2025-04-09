@@ -61,11 +61,11 @@
                         <th>웹 접근성</th>
                         <td colspan="5">
                             <ul class="wai-site-list">
-                                <li>NAVER Accessibility <a href="https://accessibility.naver.com/" target="blink">바로가기</a></li>
-                                <li>웹접근성 연구소 <a href="https://www.wah.or.kr:444/index.asp" target="blink">바로가기</a></li>
-                                <li>WebWatch <a href="http://www.webwatch.or.kr/" target="blink">바로가기</a></li>
-                                <li>웹 접근성 점검 매뉴얼 <a href="https://www.wah.or.kr:444/board/boardView.asp?page=3&amp;brd_sn=4&amp;brd_idx=518" target="blink">바로가기</a></li>
-                                <li>웹 접근성 품질인증 표준심사 지침 <a href="http://www.webwatch.or.kr/include/fileDown.asp?filename=%uC6F9%20%uC811%uADFC%uC131%20%uD488%uC9C8%uC778%uC99D%20%uD45C%uC900%uC2EC%uC0AC%20%uC9C0%uCE68.pdf">다운로드</a></li>
+                                <li>NAVER Accessibility <a href="https://accessibility.naver.com/" target="blink">바로가기</router-link></li>
+                                <li>웹접근성 연구소 <a href="https://www.wah.or.kr:444/index.asp" target="blink">바로가기</router-link></li>
+                                <li>WebWatch <a href="http://www.webwatch.or.kr/" target="blink">바로가기</router-link></li>
+                                <li>웹 접근성 점검 매뉴얼 <a href="https://www.wah.or.kr:444/board/boardView.asp?page=3&amp;brd_sn=4&amp;brd_idx=518" target="blink">바로가기</router-link></li>
+                                <li>웹 접근성 품질인증 표준심사 지침 <a href="http://www.webwatch.or.kr/include/fileDown.asp?filename=%uC6F9%20%uC811%uADFC%uC131%20%uD488%uC9C8%uC778%uC99D%20%uD45C%uC900%uC2EC%uC0AC%20%uC9C0%uCE68.pdf">다운로드</router-link></li>
                             </ul>
                         </td>
                     </tr> -->
@@ -84,6 +84,10 @@
             _HomeView.vue
             _sub_template.vue
             _main.vue
+            _sub_01.vue
+            _sub_02.vue
+            _sub_03.vue
+            _sub_04.vue
 </pre>
             <!--********* Directory ********** -->
 
@@ -120,6 +124,88 @@
                         <td></td>
                         <td>
                             <router-link to="/sub_template" class="linktxt">sub_template.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="7" class="hr-line"></td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="1">Main</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/main_view" class="linktxt">main_view.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="7" class="hr-line"></td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Sub</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/sub_01" class="linktxt">sub_01.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/sub_02" class="linktxt">sub_02.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/sub_03" class="linktxt">sub_03.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/sub_04" class="linktxt">sub_04.vue</router-link>
                         </td>
                         <td>
                             <ul class="notelist">
@@ -183,6 +269,7 @@ export default defineComponent({
     .pro-list-top .project-name h1 {
         font-size: 38px;
         color: #000;
+        font-weight: 700;
     }
     .worker {
         float: right;

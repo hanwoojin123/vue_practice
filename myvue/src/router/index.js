@@ -10,11 +10,33 @@ const routes = [
   {
     path: '/sub_template',
     name: 'sub_template',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/sub_template.vue')
-  }
+    component: () => import('../views/sub_template.vue')
+  },
+  {
+    path: '/main_view',
+    name: 'main_view',
+    component: () => import('../views/main_view.vue')
+  },
+  {
+    path: '/sub_01',
+    name: 'sub_01',
+    component: () => import('../views/sub_01.vue')
+  },
+  {
+    path: '/sub_02',
+    name: 'sub_02',
+    component: () => import('../views/sub_02.vue')
+  },
+  {
+    path: '/sub_03',
+    name: 'sub_03',
+    component: () => import('../views/sub_03.vue')
+  },
+  {
+    path: '/sub_04',
+    name: 'sub_04',
+    component: () => import('../views/sub_04.vue')
+  },
 ]
 
 const router = createRouter({

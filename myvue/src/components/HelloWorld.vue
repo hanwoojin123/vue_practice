@@ -43,7 +43,7 @@
             target="_blank"
           >
             {{ next.text }}
-          </a>
+        </a>
         </v-row>
       </v-col>
 
@@ -64,7 +64,7 @@
             target="_blank"
           >
             {{ link.text }}
-          </a>
+        </a>
         </v-row>
       </v-col>
 
@@ -85,7 +85,7 @@
             target="_blank"
           >
             {{ eco.text }}
-          </a>
+        </a>
         </v-row>
       </v-col>
     </v-row>
