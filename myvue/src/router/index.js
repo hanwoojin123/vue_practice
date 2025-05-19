@@ -37,6 +37,11 @@ const routes = [
     name: 'sub_04',
     component: () => import('../views/sub_04.vue')
   },
+  {
+    path: '/antCollapse',
+    name: 'antCollapse',
+    component: () => import('../views/antCollapse.vue')
+  },
 ]
 
 const router = createRouter({

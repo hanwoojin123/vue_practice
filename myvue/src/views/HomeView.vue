@@ -213,6 +213,21 @@
                             </ul>
                         </td>
                     </tr>
+                    <tr>
+                        <th rowspan="1">Components</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/antCollapse" class="linktxt">antCollapse.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <!--********* publishing list ********** -->
