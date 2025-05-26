@@ -214,7 +214,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th rowspan="6">Components</th>
+                        <th rowspan="7">Components</th>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -291,6 +291,20 @@
                         <td></td>
                         <td>
                             <router-link to="/antTab" class="linktxt">antTab.vue</router-link>
+                        </td>
+                        <td>
+                            <ul class="notelist">
+                                <li><em>0000-00-00</em>업데이트</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <router-link to="/antCarousel" class="linktxt">antCarousel.vue</router-link>
                         </td>
                         <td>
                             <ul class="notelist">

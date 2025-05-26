@@ -67,6 +67,11 @@ const routes = [
     name: 'antTab',
     component: () => import('../views/antTab.vue')
   },
+  {
+    path: '/antCarousel',
+    name: 'antCarousel',
+    component: () => import('../views/antCarousel.vue')
+  },
 ]
 
 const router = createRouter({
