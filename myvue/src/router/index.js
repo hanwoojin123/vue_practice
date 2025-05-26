@@ -42,6 +42,31 @@ const routes = [
     name: 'antCollapse',
     component: () => import('../views/antCollapse.vue')
   },
+  {
+    path: '/antMenu',
+    name: 'antMenu',
+    component: () => import('../views/antMenu.vue')
+  },
+  {
+    path: '/antDatePicker',
+    name: 'antDatePicker',
+    component: () => import('../views/antDatePicker.vue')
+  },
+  {
+    path: '/antTooltip',
+    name: 'antTooltip',
+    component: () => import('../views/antTooltip.vue')
+  },
+  {
+    path: '/antTree',
+    name: 'antTree',
+    component: () => import('../views/antTree.vue')
+  },
+  {
+    path: '/antTab',
+    name: 'antTab',
+    component: () => import('../views/antTab.vue')
+  },
 ]
 
 const router = createRouter({
