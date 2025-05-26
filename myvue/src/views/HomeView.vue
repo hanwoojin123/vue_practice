@@ -78,9 +78,23 @@
     /* Directory */
     src
         assets
+            _fonts
             _images
             _styles
+        components
+            _HelloWorld.vue
+        layouts
+            _DefaultLayout.vue
+        router
+            _index.js
         views
+            _antCarousel.vue
+            _antCollapse.vue
+            _antDatePicker.vue
+            _antMenu.vue
+            _antTab.vue
+            _antTolltip.vue
+            _antTree.vue
             _HomeView.vue
             _sub_template.vue
             _main.vue
@@ -88,6 +102,8 @@
             _sub_02.vue
             _sub_03.vue
             _sub_04.vue
+        App.vue
+        main.js
 </pre>
             <!--********* Directory ********** -->
 
@@ -213,6 +229,11 @@
                             </ul>
                         </td>
                     </tr>
+
+                    <tr>
+                        <td colspan="7" class="hr-line"></td>
+                    </tr>
+
                     <tr>
                         <th rowspan="7">Components</th>
                         <td></td>
